@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js" defer></script>
+
+    <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+
+    <section class="section">
+        <div class="title">
+            <h1>S P L I</h1>
+            <h1>T T E R</h1>
+        </div>
+        <content class="container">
+            <div class="user-inputs">
+                <p>Bill</p>
+                <div class="icon-input"><span><img src="./images/icon-dollar.svg" alt="icon-dollar"></span><input class="inputValor" type="number" placeholder="0" min="0"></div>
+                <p>Select tip%</p>
+                <div class="tips-btns">
+                    <button class="btn-porcentagem" value="5">5%</button>
+                    <button class="btn-porcentagem" value="10">10%</button>
+                    <button class="btn-porcentagem" value="15">15%</button>
+                    <button class="btn-porcentagem" value="25">25%</button>
+                    <button class="btn-porcentagem" value="50">50%</button>
+                    <input class="btn-porcentagem" id="custom" placeholder="Custom" type="number">
+                </div>
+                <p>Number of People</p>
+                <div class="icon-input"><span><img src="./images/icon-person.svg" alt="icon-person"></span><input class="inputPessoas " type="number" placeholder="0" min="0"></div>
+            </div>
+            <div class="results">
+                <div class="div">
+                    <div class="individual-tips-porcentagens res">
+                        <div class="tip-amount">
+                            <h3>Tip Amount</h3>
+                            <p>/ person</p>
+                        </div>
+                        <div class="amounts"> <img src="./images/icon-dollar-res.svg" alt="icon-dollar"><span class="res-individual-amount">0.00</span></div>
+                    </div>
+                    <div class=" total-individual-tips res">
+                        <div class="tip-amount">
+                            <h3>Total</h3>
+                            <p>/ person</p>
+                        </div>
+                        <div class="amounts"><img src="./images/icon-dollar-res.svg" alt="icon-dollar"><span class="res-total">0.00</span></div>
+                    </div>
+                </div>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </content>
+    </section>
+
+</body>
+</html>
